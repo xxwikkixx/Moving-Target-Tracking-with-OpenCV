@@ -20,7 +20,7 @@ public class CONFIG {
 	// static String filename = "H:/VIDEO/Footage/Project Final/SingleTracking.mp4";
 	// static String filename = "H:/VIDEO/Footage/Project Final/FroggerHighway.mp4";
 	// static String filename = "H:/VIDEO/Footage/Project Final/street.mov";
-	public static String filename = "video.mp4";
+	public static String filename = "atrium.avi";
 	
 	public static int FRAME_WIDTH = Toolkit.getDefaultToolkit().getScreenSize().width / 2;
 	public static int FRAME_HEIGHT = Toolkit.getDefaultToolkit().getScreenSize().height / 2;

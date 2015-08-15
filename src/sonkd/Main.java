@@ -30,6 +30,11 @@ import org.opencv.video.BackgroundSubtractorMOG2;
 import org.opencv.video.Video;
 import org.opencv.videoio.VideoCapture;
 
+/**
+ * Main.java TODO:
+ * 
+ * @author Kim Dinh Son Email:sonkdbk@gmail.com
+ */
 
 public class Main {
 	static {
@@ -108,10 +113,9 @@ public class Main {
 				CONFIG._max_trace_length);
 
 		// Thread.sleep(1000);
-		VideoCapture camera = new VideoCapture("sample.mov");
+		VideoCapture camera = new VideoCapture("visiontraffic.avi");
 		//camera.open(CONFIG.filename);
 		// VideoCapture camera = new VideoCapture(0);
-		
 		int i = 0;
 
 		if (!camera.isOpened()) {
